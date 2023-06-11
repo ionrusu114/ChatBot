@@ -10,7 +10,6 @@ import {MessagesContext} from "@/context/messages";
 import {CornerDownLeft, Loader2} from "lucide-react";
 import toast from "react-hot-toast";
 
-
 interface ChatInputProps extends HTMLAttributes<HTMLDivElement>{}
 const ChatInput : FC<ChatInputProps> = ({className, ...props}) => {
     const [input, setInput] = useState<string>('')
