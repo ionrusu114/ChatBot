@@ -7,8 +7,8 @@ import Providers from "@/components/Providers";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Book Store',
-  description: 'Book store',
+  title: 'Demo - Academia Militara ',
+  description: 'Pagina DEMO a Academiei Militare',
 }
 
 export default function RootLayout({

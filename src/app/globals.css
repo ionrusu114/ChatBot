@@ -8,7 +8,7 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -46,3 +46,11 @@ body {
 .scrollbar-thumb-rounded::-webkit-scrollbar-thumb{
   border-radius: 0.25rem;
 }
+
+.image-url-logo{
+  width: 20px;
+  height: 20px;
+  background-image: url("https://academy.army.md/wp-content/uploads/academy.png");
+}
+
+
