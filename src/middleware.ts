@@ -9,6 +9,8 @@ export async function middleware(req: NextRequest){
 
         if(!success) return new NextResponse('Pentru o securitate mai buna, nu puteti transmite mesaje mai rapid de odata la 10s !')
         return NextResponse.next()
+
+
     }catch (error){
         return new NextResponse('Ne scuzati, ceva este in neregula cu procesarea mesajului dumneavoastra!\n Incercati mai tirziu!')
     }
